@@ -23,3 +23,12 @@ npm run lint
 ```bash
 docker build .
 ```
+
+### Export as an bundle
+
+```bash
+npm install loopback -g
+slc build
+
+git archive --format zip --output "node-ts.zip" deploy
+```

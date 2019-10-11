@@ -1,5 +1,11 @@
-node_modules
-dist
+node_modules/
+dist/
 npm-debug.log
 .idea/
 types/
+.npmbundle/
+
+*.zip
+*.tgz
+
+package-lock.json
